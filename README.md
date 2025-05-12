@@ -1,17 +1,5 @@
 # Hospital_Emergency_Visit_Room_Report
 
-
-% NonAdministrative Schedule =
-DIVIDE(
-    COUNTROWS(FILTER('Hospital ER', 'Hospital ER'[patient_admin_flag] = FALSE())),
-    [Total Patients]
-)
-
-
-Patient Ratings & Wait Times
-
-Preview
-Raw
 Project Title
 Patients Emergency Room Visit Report
 Dashboard Link : https://app.powerbi.com/groups/me/reports/247cf6d3-4bdc-487d-b29d-df3bcaf95613/b1e6575002ae91b0c17d?experience=power-bi
